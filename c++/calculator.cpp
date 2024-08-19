@@ -16,7 +16,7 @@ switch(op){
     cout<<num1<<"+"<<num2<<"="<<r;
     break;
     case '-':
-    r=num1/num2;
+    r=num1-num2;
     cout<<num1<<"-"<<num2<<"="<<r;
     break;
     case '*':
@@ -24,7 +24,7 @@ switch(op){
     cout<<num1<<"*"<<num2<<"="<<r;
     break;
     case '/':
-    r=num1-num2;
+    r=num1/num2;
     cout<<num1<<"/"<<num2<<"="<<r;
 break;
 default:
